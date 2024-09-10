@@ -9,9 +9,9 @@
 	<version>1.0.0-BUILD-SNAPSHOT</version>
 	<properties>
 		<java-version>1.7</java-version>
-		<spring-version>5.3.19</spring-version>
-		<hibernate-version>5.6.15.Final</hibernate-version>
-		<mysql-version>8.0.28</mysql-version>
+		<spring-version>6.1.12</spring-version>
+		<hibernate-version>5.4.24.Final</hibernate-version>
+		<mysql-version>8.0.30</mysql-version>
 		<apache-connection-pooling-version>1.4</apache-connection-pooling-version>
 	</properties>
 	<dependencies>
@@ -78,7 +78,7 @@
 		<dependency>
 			<groupId>javax.servlet.jsp</groupId>
 			<artifactId>jsp-api</artifactId>
-			<version>2.1</version>
+			<version>2.2</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
@@ -94,11 +94,11 @@
 			<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
 				<artifactId>tomcat7-maven-plugin</artifactId>
-				<version>2.0</version>
+				<version>2.2</version>
 			</plugin>
 			<plugin>
 				<artifactId>maven-eclipse-plugin</artifactId>
-				<version>2.9</version>
+				<version>2.10</version>
 				
 				<configuration>
 					<additionalProjectnatures>
