@@ -1,4 +1,4 @@
-package np.com.mshrestha.bookstore.model;
+package id.my.jvm.hendisantika.bookstore.model;
 
 import java.sql.Date;
 

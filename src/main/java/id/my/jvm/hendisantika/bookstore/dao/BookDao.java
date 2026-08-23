@@ -1,7 +1,7 @@
-package np.com.mshrestha.bookstore.dao;
+package id.my.jvm.hendisantika.bookstore.dao;
 
 import java.util.List;
-import np.com.mshrestha.bookstore.model.Book;
+import id.my.jvm.hendisantika.bookstore.model.Book;
 
 public interface BookDao {
 

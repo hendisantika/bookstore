@@ -1,10 +1,10 @@
-package np.com.mshrestha.bookstore.service.impl;
+package id.my.jvm.hendisantika.bookstore.service.impl;
 
 import java.util.List;
 
-import np.com.mshrestha.bookstore.dao.BookDao;
-import np.com.mshrestha.bookstore.model.Book;
-import np.com.mshrestha.bookstore.service.BookService;
+import id.my.jvm.hendisantika.bookstore.dao.BookDao;
+import id.my.jvm.hendisantika.bookstore.model.Book;
+import id.my.jvm.hendisantika.bookstore.service.BookService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

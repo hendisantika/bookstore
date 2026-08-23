@@ -1,9 +1,9 @@
-package np.com.mshrestha.bookstore.controller;
+package id.my.jvm.hendisantika.bookstore.controller;
 
 import java.util.Map;
 
-import np.com.mshrestha.bookstore.model.Book;
-import np.com.mshrestha.bookstore.service.BookService;
+import id.my.jvm.hendisantika.bookstore.model.Book;
+import id.my.jvm.hendisantika.bookstore.service.BookService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

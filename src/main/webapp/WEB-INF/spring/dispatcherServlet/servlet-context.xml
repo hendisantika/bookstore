@@ -13,7 +13,7 @@
 
 	<!-- Enables the Spring MVC @Controller programming model -->
 	<annotation-driven />
-	<context:component-scan base-package="np.com.mshrestha.bookstore.controller" />
+	<context:component-scan base-package="id.my.jvm.hendisantika.bookstore.controller" />
 
 	<!-- Handles HTTP GET requests for /web-resources/** by efficiently serving 
 		up static resources in the ${webappRoot}/resources/ directory -->

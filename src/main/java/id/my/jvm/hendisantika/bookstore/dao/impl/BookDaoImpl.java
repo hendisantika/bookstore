@@ -1,11 +1,11 @@
-package np.com.mshrestha.bookstore.dao.impl;
+package id.my.jvm.hendisantika.bookstore.dao.impl;
 
 import java.util.List;
 
 import jakarta.persistence.criteria.CriteriaQuery;
 
-import np.com.mshrestha.bookstore.dao.BookDao;
-import np.com.mshrestha.bookstore.model.Book;
+import id.my.jvm.hendisantika.bookstore.dao.BookDao;
+import id.my.jvm.hendisantika.bookstore.model.Book;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

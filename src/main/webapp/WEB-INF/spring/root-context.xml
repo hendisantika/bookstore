@@ -11,7 +11,7 @@
 
 	<!-- Root Context: defines shared resources visible to all other web components -->
 
-	<context:component-scan base-package="np.com.mshrestha.bookstore" />
+	<context:component-scan base-package="id.my.jvm.hendisantika.bookstore" />
 
 	<bean id="propertyConfigurer"
 		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
@@ -34,7 +34,7 @@
 
 		<property name="packagesToScan">
 			<list>
-				<value>np.com.mshrestha.bookstore.model</value>
+				<value>id.my.jvm.hendisantika.bookstore.model</value>
 			</list>
 		</property>
 		<property name="hibernateProperties">

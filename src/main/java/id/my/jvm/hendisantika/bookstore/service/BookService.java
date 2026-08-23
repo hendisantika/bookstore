@@ -1,8 +1,8 @@
-package np.com.mshrestha.bookstore.service;
+package id.my.jvm.hendisantika.bookstore.service;
 
 import java.util.List;
 
-import np.com.mshrestha.bookstore.model.Book;
+import id.my.jvm.hendisantika.bookstore.model.Book;
 
 public interface BookService {
 
