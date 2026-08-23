@@ -8,7 +8,10 @@
 	<packaging>war</packaging>
 	<version>1.0.0-BUILD-SNAPSHOT</version>
 	<properties>
-		<java-version>1.7</java-version>
+		<java-version>25</java-version>
+		<maven.compiler.source>${java-version}</maven.compiler.source>
+		<maven.compiler.target>${java-version}</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<spring-version>7.0.9</spring-version>
 		<hibernate-version>5.6.15.Final</hibernate-version>
 		<mysql-version>8.0.33</mysql-version>
@@ -109,10 +112,6 @@
 					</additionalBuildcommands>
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
-					<properties>
-       <maven.compiler.source>1.5</maven.compiler.source>
-       <maven.compiler.target>1.5</maven.compiler.target>
-   </properties>
 				</configuration>
 			</plugin>
 			<!-- <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-compiler-plugin</artifactId> 
