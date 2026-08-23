@@ -1,10 +1,10 @@
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="jakarta.tags.core" prefix="c"%>
 
 
 <c:url var="actionUrl" value="save" />
 
-<form:form id="bookForm" commandName="book" method="post"
+<form:form id="bookForm" modelAttribute="book" method="post"
 	action="${actionUrl }" class="pure-form pure-form-aligned">
 
 	<fieldset>

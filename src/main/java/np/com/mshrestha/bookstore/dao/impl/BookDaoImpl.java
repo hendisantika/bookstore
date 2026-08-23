@@ -2,6 +2,8 @@ package np.com.mshrestha.bookstore.dao.impl;
 
 import java.util.List;
 
+import jakarta.persistence.criteria.CriteriaQuery;
+
 import np.com.mshrestha.bookstore.dao.BookDao;
 import np.com.mshrestha.bookstore.model.Book;
 
@@ -21,14 +23,14 @@ public class BookDaoImpl implements BookDao {
 
 	}
 
-	@SuppressWarnings("unchecked")
 	public List<Book> listBooks() {
-
-		return getSession().createCriteria(Book.class).list();
+		CriteriaQuery<Book> criteria = getSession().getCriteriaBuilder().createQuery(Book.class);
+		criteria.from(Book.class);
+		return getSession().createQuery(criteria).getResultList();
 	}
 
 	public Book getBook(Long id) {
-		return (Book) getSession().get(Book.class, id);
+		return getSession().find(Book.class, id);
 	}
 
 	public void deleteBook(Long id) {
@@ -36,7 +38,7 @@ public class BookDaoImpl implements BookDao {
 		Book book = getBook(id);
 
 		if (null != book) {
-			getSession().delete(book);
+			getSession().remove(book);
 		}
 
 	}
