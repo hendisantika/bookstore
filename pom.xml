@@ -13,7 +13,7 @@
 		<maven.compiler.target>${java-version}</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<spring-version>7.0.9</spring-version>
-		<hibernate-version>7.4.6.Final</hibernate-version>
+		<hibernate-version>7.4.7.Final</hibernate-version>
 		<mysql-version>8.0.33</mysql-version>
 		<apache-connection-pooling-version>1.4</apache-connection-pooling-version>
 	</properties>
